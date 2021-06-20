@@ -1,5 +1,7 @@
 @import "./custom";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/tiny-slider/dist/tiny-slider.css";
+@import "./components/tns-custom";
 
 body {
   position: relative;
@@ -63,3 +65,4 @@ body {
 @import "./components/navbar";
 @import "./components/hero";
 @import "./components/solutions";
+@import "./components/about";

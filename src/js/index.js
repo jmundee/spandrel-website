@@ -1,5 +1,6 @@
 import 'bootstrap';
 import { ScrollSpy } from 'bootstrap';
+import { tns } from 'tiny-slider/src/tiny-slider';
 
 console.log('SPANDREL INTERACTIVE');
 
@@ -18,3 +19,37 @@ const fixAnchorScroll = event => {
 anchorLinks.forEach(anchor => {
   anchor.addEventListener('click', fixAnchorScroll)
 })
+
+const tnsBasicConfig = {
+  items: 1,
+  gutter: 24,
+  controlsPosition: "bottom",
+  navPosition: "bottom",
+  controlsText: ["<", ">"]
+}
+
+tns({
+  container: '.about__slider',
+  ...tnsBasicConfig,
+  responsive: {
+    768: {
+      items: 2
+    },
+    992: {
+      items: 3
+    },
+    1200: {
+      items: 4
+    }
+  }
+});
+
+const projectSlider = containerElem => {
+  return tns({
+    container: containerElem,
+    ...tnsBasicConfig,
+    center: true,
+    loop: true,
+    controlsContainer: containerElem.querySelector('.arrows')
+  });
+}

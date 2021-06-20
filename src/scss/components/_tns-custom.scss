@@ -1,0 +1,53 @@
+%arrow-button {
+  @extend %gradient-bg;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0 13px;
+  box-shadow: 5px 5px 0 white;
+  border: 0;
+}
+
+.tns-outer {
+  position: relative;
+  max-width: calc(100% - 80px);
+  margin: 0 auto;
+
+  .tns-nav {
+    text-align: center;
+
+    button {
+      border: 0;
+      background: white;
+      padding: 0;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      opacity: 0.2;
+
+      &+button {
+        margin-left: 20px;
+      }
+
+      &.tns-nav-active {
+        opacity: 1;
+      }
+    }
+  }
+
+  .tns-controls {
+    button {
+      @extend %arrow-button;
+      position: absolute;
+      top: calc(50% - 24px);
+      transform: translateY(-50%);
+
+      &[data-controls="prev"] {
+        right: 100%;
+      }
+
+      &[data-controls="next"] {
+        left: 100%;
+      }
+    }
+  }
+}
