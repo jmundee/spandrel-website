@@ -1,0 +1,16 @@
+.contact {
+  &__cta {
+    @extend %gradient-button;
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 12px auto 0;
+    padding: 12px;
+    max-width: 450px;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

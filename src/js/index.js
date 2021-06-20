@@ -14,7 +14,9 @@ const headerHeight = 78;
 const fixAnchorScroll = event => {
   event.preventDefault();
   const target = document.querySelector(event.target.hash);
-  scrollTo(0, target.offsetTop - headerHeight)
+  if (target) {
+    scrollTo(0, target.offsetTop - headerHeight)
+  }
 }
 anchorLinks.forEach(anchor => {
   anchor.addEventListener('click', fixAnchorScroll)
