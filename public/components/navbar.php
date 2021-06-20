@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark" id="header">
   <div class="container-fluid">
     <a class="navbar-brand" href="#home" title="Spandrel Interactive">
       <img src="/img/spandrel_logo_white.png" alt="Spandrel Interactive" height="50">

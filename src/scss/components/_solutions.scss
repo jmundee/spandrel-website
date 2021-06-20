@@ -1,0 +1,25 @@
+.solutions {
+  &__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+  }
+
+  &__image-holder {
+    @extend %gradient-bg;
+    padding: 20px;
+    @include media-breakpoint-up(md) {
+      padding: 40px 20px;
+    }
+  }
+
+  &__image {
+    display: block;
+    max-width: 100%;
+  }
+}

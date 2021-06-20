@@ -19,6 +19,7 @@
     <?php include 'components/navbar.php';?>
     <main>
       <?php include 'components/hero.php';?>
+      <?php include 'components/solutions.php';?>
     </main>
 
     <script src="/assets/scripts.min.js" type="text/javascript"></script>
