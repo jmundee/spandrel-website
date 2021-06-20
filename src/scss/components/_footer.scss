@@ -1,0 +1,19 @@
+.footer {
+  padding: 24px 0;
+
+  &__social-link {
+    display: inline-block;
+    margin: 0 8px;
+  }
+
+  &__contact {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

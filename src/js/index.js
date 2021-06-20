@@ -33,6 +33,8 @@ const tnsBasicConfig = {
 tns({
   container: '.about__slider',
   ...tnsBasicConfig,
+  loop: false,
+  slideBy: "page",
   responsive: {
     768: {
       items: 2

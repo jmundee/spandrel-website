@@ -68,5 +68,7 @@
         </div>
       </div>
     </div>
+
+    <?php include 'back-to-top.php' ?>
   </div>
 </section>

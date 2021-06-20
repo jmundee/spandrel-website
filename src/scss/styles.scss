@@ -53,11 +53,11 @@ body {
   padding: 40px 0;
 
   @include media-breakpoint-up(md) {
-    padding: 60px 0;
+    padding-top: 60px;
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 100px 0;
+    padding-top: 100px;
   }
 }
 
@@ -67,3 +67,4 @@ body {
 @import "./components/solutions";
 @import "./components/about";
 @import "./components/contact";
+@import "./components/footer";
