@@ -4,9 +4,6 @@
       We elevate your tech and game initiatives.<br/>
       We develop the solution for your educational, training, and entertainment projects.
     </h2>
-    <p class="cta-holder">
-      <a class="cta" href="">Learn More</a>
-    </p>
     <ul class="solutions__list row row-cols-2 row-cols-md-3 row-cols-lg-6 text-uppercase fs-4 text-center">
       <li class="solutions__item col">
         <div class="solutions__image-holder">
