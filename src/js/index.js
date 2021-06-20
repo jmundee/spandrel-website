@@ -1,5 +1,9 @@
+import 'bootstrap';
+import { ScrollSpy } from 'bootstrap';
+
 console.log('SPANDREL INTERACTIVE');
-const testing = () => {
-  document.body.classList.add('test')
-}
-testing();
+
+new ScrollSpy(document.body, {
+  target: '#navbar',
+  offset: 150
+});

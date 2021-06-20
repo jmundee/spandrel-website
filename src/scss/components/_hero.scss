@@ -1,0 +1,78 @@
+.hero {
+  display: flex;
+  padding-bottom: 60px;
+  flex-direction: column;
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    min-height: calc(100vh - 78px);
+    padding-left: 30%;
+    padding-bottom: 0;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    background-image: url('/img/banner-background.jpg');
+    background-size: contain;
+    background-repeat: repeat-Y;
+    padding: 15px 15px 0;
+    z-index: 2;
+
+    @include media-breakpoint-up(md) {
+      padding: 2rem;
+      background-image: none;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 12vw;
+    margin-bottom: -40px;
+    color: black;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+      color: white;
+      font-size: 6vw;
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 7vw;
+    }
+  }
+
+  &__cta {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    @include media-breakpoint-up(md) {
+      text-align: right;
+      position: inherit;
+    }
+  }
+
+  &__background {
+    background-image: url('/img/woman_pexels_sound_on.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    flex-grow: 1;
+    height: 120vw;
+
+    @include media-breakpoint-up(md) {
+      background-position: center center;
+      position: absolute;;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 30%;
+    }
+  }
+}

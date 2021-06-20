@@ -12,6 +12,7 @@
   "license": "ISC",
   "browserslist": "> 0.25%, not dead",
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1",
     "core-js": "^3.14.0"
   },

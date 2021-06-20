@@ -1,2 +1,44 @@
 @import "./custom";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  position: relative;
+}
+
+.cta {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.2rem;
+  }
+
+  &:after {
+    @extend %gradient-bg;
+    display: block;
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+
+  &:hover {
+    color: white;
+
+    &:after {
+      @extend %gradient-bg-inverted;
+    }
+  }
+}
+
+// Custom components
+@import "./components/navbar";
+@import "./components/hero";

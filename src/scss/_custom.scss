@@ -1,3 +1,23 @@
+$navbar-bg: rgb(32, 26, 25);
+$gradient-1: rgb(209, 101, 61);
+$gradient-2: rgb(219, 136, 66);
+
 // Default variable overrides
-$body-bg: black;
-$body-color: #FFF;
+$body-bg: rgb(28, 23, 26);
+$body-color: #fff;
+
+$primary: rgb(222, 144, 67);
+$gray-900: $navbar-bg;
+
+$font-family-base: 'Roboto Condensed', sans-serif;
+
+// SASS Placehoders
+%gradient-bg {
+  background-color: $gradient-1;
+  background-image: linear-gradient(to right, $gradient-1, $gradient-2);
+}
+
+%gradient-bg-inverted {
+  background-color: $gradient-2;
+  background-image: linear-gradient(to left, $gradient-1, $gradient-2);
+}

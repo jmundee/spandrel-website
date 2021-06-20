@@ -1,0 +1,23 @@
+.nav-link {
+  position: relative;
+  letter-spacing: 0.1rem;
+
+  &::before {
+    @extend %gradient-bg;
+    content: '';
+    display: block;
+    height: 3px;
+    max-height: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+    transition: max-height .3s ease;
+  }
+
+  &.active {
+    &::before {
+      max-height: 3px;
+    }
+  }
+}
