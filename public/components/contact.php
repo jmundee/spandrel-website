@@ -1,3 +1,6 @@
+<?php
+  $data = json_decode(file_get_contents('./data/generalInfo.json'), true);
+?>
 <section class="section" id="Contact">
   <div class="container">
     <h3 class="fs-1 text-center mt-5 mb-5">
@@ -7,7 +10,7 @@
 
     <p class="fs-5 fw-bold text-uppercase text-center">
       Integrate the power of games into your project
-      <a class="contact__cta" href="mailto:contact@spandrelinteractive.com">
+      <a class="contact__cta" href="mailto:<?php echo $data['email'] ?>">
         Contact us
       </a>
     </p>

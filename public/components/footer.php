@@ -1,8 +1,11 @@
+<?php
+  $data = json_decode(file_get_contents('./data/generalInfo.json'), true);
+?>
 <footer class="bg-dark footer">
   <div class="container">
     <p class="text-center">
       <a
-        href="https://www.linkedin.com/company/spandrel-interactive/"
+        href="<?php echo $data['linkedin'] ?>"
         target="_blank"
         class="footer__social-link"
         rel="noopener noreferrer"
@@ -11,7 +14,7 @@
         <img src="/img/linkedin.svg" role="presentation" width="36px"/>
       </a>
       <a
-        href="https://www.facebook.com/Spandrel-Interactive-116970440052387/"
+        href="<?php echo $data['facebook'] ?>"
         target="_blank"
         class="footer__social-link"
         rel="noopener noreferrer"
@@ -21,8 +24,8 @@
       </a>
     </p>
     <p class="fs-5 text-center">
-      <a class="footer__contact" href="mailto:contact@spandrelinteractive.com">contact@spandrelinteractive.com</a><br/>
-      <a class="footer__contact" href="tel:+15061234567">+1 (506) 123 4567</a>
+      <a class="footer__contact" href="mailto:<?php echo $data['email'] ?>"><?php echo $data['email'] ?></a><br/>
+      <a class="footer__contact" href="tel:<?php echo $data['phone'] ?>"><?php echo $data['phone'] ?></a>
     </p>
     <p class="fs-5 mt-4 text-center">
       © <?php echo date("Y"); ?>, Spandrel Interactive Inc. Fredericton New Brunswick Canada
