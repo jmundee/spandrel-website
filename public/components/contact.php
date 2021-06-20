@@ -10,7 +10,7 @@
 
     <p class="fs-5 fw-bold text-uppercase text-center">
       Integrate the power of games into your project
-      <a class="contact__cta" href="mailto:<?php echo $data['email'] ?>">
+      <a class="contact__cta" href="mailto:<?= $data['email'] ?>">
         Contact us
       </a>
     </p>

@@ -5,18 +5,18 @@
   <div class="container">
     <p class="text-center">
       <a
-        href="<?php echo $data['linkedin'] ?>"
-        target="_blank"
+        href="<?= $data['linkedin'] ?>"
         class="footer__social-link"
+        target="_blank"
         rel="noopener noreferrer"
         title="LinkedIn"
       >
         <img src="/img/linkedin.svg" role="presentation" width="36px"/>
       </a>
       <a
-        href="<?php echo $data['facebook'] ?>"
-        target="_blank"
+        href="<?= $data['facebook'] ?>"
         class="footer__social-link"
+        target="_blank"
         rel="noopener noreferrer"
         title="Facebook"
       >
@@ -24,8 +24,8 @@
       </a>
     </p>
     <p class="fs-5 text-center">
-      <a class="footer__contact" href="mailto:<?php echo $data['email'] ?>"><?php echo $data['email'] ?></a><br/>
-      <a class="footer__contact" href="tel:<?php echo $data['phone'] ?>"><?php echo $data['phone'] ?></a>
+      <a class="footer__contact" href="mailto:<?= $data['email'] ?>"><?= $data['email'] ?></a><br/>
+      <a class="footer__contact" href="tel:<?= $data['phone'] ?>"><?= $data['phone'] ?></a>
     </p>
     <p class="fs-5 mt-4 text-center">
       © <?php echo date("Y"); ?>, Spandrel Interactive Inc. Fredericton New Brunswick Canada

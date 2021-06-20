@@ -1,0 +1,82 @@
+[
+  {
+    "title": "H2O: An Ocean Of Science",
+    "slug": "H2O",
+    "description": "The H2O: An Ocean of Science project was developed to celebrate the University of <a href=\"https://www.unb.ca/cel/enrichment/art-centre/world-water-day.html\" target=\"_blank\" rel=\"noopener noreferrer\">New Brunswick's Art Centre’s 10th year of participation in World Water Day events</a>. The mobile interactive experience is part of an international project to bring awareness to the importance of water resources and their sustainable management.<br/>The app allows users to select a Standard 3D or Augmented Reality version of a globe to discover the ocean biosphere and experience how interconnected our planet is-- from the smallest bacteria to the largest blue whale. H2O: An Ocean of Science brings together research, data, and analysis from scientists, oceanographers, zoologists, climatologists, geologists, and others to understand the challenges facing various marine environments. For each entry, references are provided to encourage further exploration. The app also allows users to submit their own observations and data as part of the conversation about climate change.<br/>The app is <a href=\"https://play.google.com/store/apps/details?id=com.SpandrelInteractive.WaterDay\" target=\"_blank\" rel=\"noopener noreferrer\">available on Google's Playstore.</a>",
+    "slides": [
+      {
+        "type": "youtube",
+        "src": "Qr2mjHB8-RM"
+      },
+      {
+        "type": "image",
+        "src": "h2o/wwd_screen_1.png"
+      },
+      {
+        "type": "image",
+        "src": "h2o/wwd_screen_2.png"
+      },
+      {
+        "type": "image",
+        "src": "h2o/wwd_screen_3.png"
+      }
+    ]
+  },
+  {
+    "title": "All The Right Moves",
+    "slug": "AllTheRightMoves",
+    "description": "All the Right Moves is a Virtual Reality training application focused on nursing home staff. It was developed for the New Brunswick Continuing Care Safety Association (NBCCSA), a not-for-profit association created in 2013 by the New Brunswick Association of Nursing Homes (NBANH) and WorkSafeNB with the intent to not only service the unique needs of the nursing home sector, but to promote health and safety for the home care, special care homes, and acute care streams.<br/>The training experience includes, for example, a bed setup exercise that goes over several items that must be checked in a real-life situation.",
+    "slides": [
+      {
+        "type": "youtube",
+        "src": "nIXPiKwYDg4"
+      }
+    ]
+  },
+  {
+    "title": "DDMAC Toy Room",
+    "slug": "DDMAC",
+    "description": "<a href=\"http://ddmacs.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">DDMAC<a/> stands for Don't Dis-My-Ability, a multifaceted company specializing in the emerging field of Neurodiversity located in Fredericton, New Brunswick, Canada. The Toy Room project is an interactive Virtual Reality experience for kids, an educational game in which the players have to pick up and put away toys.<br/>The game focuses on visual cues, like arrows and portals to guide the players' actions, not having to rely on text boxes, making the game more accessible and naturally interactive.<br/>More information about DDMAC can be found on their <a href=\"http://ddmacs.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">website<a/> and <a href=\"https://www.facebook.com/ddmacs.ca/about/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook page</a>.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "ddmac/ddmac_1.PNG"
+      },
+      {
+        "type": "image",
+        "src": "ddmac/ddmac_2.PNG"
+      },
+      {
+        "type": "image",
+        "src": "ddmac/ddmac_3.PNG"
+      }
+    ]
+  },
+  {
+    "title": "Noxia",
+    "slug": "Noxia",
+    "description": "Noxia is a 2D side-scrolling horror game focused on overcoming fears, manifested in the physical form of monsters that feed off negative emotions, something that teenagers and young adults often relate to. Players live the experience by seeing the world through the perspective of a young protagonist facing these fears.<br/>With depression as an overarching theme, the game explores other themes, such as the fear of failure and facing expectations; fear of change and the passage of time while growing up; stress, deadlines, and how we take time for granted; bullying and toxicity, being scared to be yourself because of what others will think.<br/>Featuring a pixel art style, the game is currently under development and it is expected to launch on Q4 2021.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "noxia/noxia_1.png"
+      },
+      {
+        "type": "image",
+        "src": "noxia/noxia_2.png"
+      },
+      {
+        "type": "image",
+        "src": "noxia/noxia_3.png"
+      },
+      {
+        "type": "image",
+        "src": "noxia/noxia_4.png"
+      },
+      {
+        "type": "image",
+        "src": "noxia/noxia_5.png"
+      }
+    ]
+  }
+]

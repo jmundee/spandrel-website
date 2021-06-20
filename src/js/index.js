@@ -48,12 +48,15 @@ tns({
   }
 });
 
-const projectSlider = containerElem => {
+const projectSliderClass = 'project__slider';
+const projectSliderWrappers = document.querySelectorAll(`.${projectSliderClass}-wrapper`);
+const projectSliderInit = wrapperElem => {
   return tns({
-    container: containerElem,
+    container: wrapperElem.querySelector(`.${projectSliderClass}`),
     ...tnsBasicConfig,
     center: true,
     loop: true,
-    controlsContainer: containerElem.querySelector('.arrows')
+    controlsContainer: wrapperElem.querySelector(`.${projectSliderClass}-arrows`)
   });
 }
+projectSliderWrappers.forEach(slider => projectSliderInit(slider));

@@ -1,3 +1,6 @@
+<?php
+  $data = json_decode(file_get_contents('./data/projects.json'), true);
+?>
 <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark" id="header">
   <div class="container-fluid">
     <a class="navbar-brand" href="#home" title="Spandrel Interactive">
@@ -16,10 +19,9 @@
             Projects
           </a>
           <ul class="dropdown-menu bg-dark dropdown-menu-dark" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#H20">H20</a></li>
-            <li><a class="dropdown-item" href="#AllTheRightMoves">All The Right Moves</a></li>
-            <li><a class="dropdown-item" href="#DDMAC">DDMAC Toy Room</a></li>
-            <li><a class="dropdown-item" href="#Noxia">Noxia</a></li>
+            <?php foreach($data as $project): ?>
+              <li><a class="dropdown-item" href="#<?= $project['slug'] ?>"><?= $project['title'] ?></a></li>
+            <?php endforeach; ?>
           </ul>
         </li>
         <li class="nav-item">

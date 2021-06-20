@@ -1,0 +1,63 @@
+.project {
+  &__title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+
+    &:after {
+      @extend %gradient-bg;
+      display: block;
+      position: absolute;
+      content: '';
+      height: 3px;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &__description {
+    br {
+      content: '';
+      display: block;
+      margin-bottom: 1em;
+    }
+
+    a {
+      color: white;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  &__slider {
+    .img-fluid {
+      max-height: 100%;
+    }
+  }
+
+  &__slider-wrapper {
+    position: relative;
+    .tns-nav {
+      margin-top: 24px;
+    }
+  }
+
+  &__slider-arrows {
+    button {
+      @extend %gradient-button;
+      position: absolute;
+      bottom: 0;
+
+      &[data-controls="prev"] {
+        left: 0;
+      }
+
+      &[data-controls="next"] {
+        right: 0;
+      }
+    }
+  }
+}
